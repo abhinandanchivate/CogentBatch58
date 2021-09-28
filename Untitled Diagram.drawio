@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T15:10:40.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="p9X0piuxd15EFdztIHNi" version="15.2.9" type="github"><diagram id="KOsFHXbVnDmWhLEfPkbn" name="Page-1">ddFRD4IgEADgX8M7gq16NsuXnnzomcklbOg5pGn9+nRgxqyNh+O7g2MH4VkzXqzo1BUlGMKoHAk/EcaSlDEyLyqfXvbH1ENttQxFK5T6BQFp0IeW0EeFDtE43cVYYdtC5SIT1uIQl93RxF07UcMGykqYrd60dMrrYUdXL0DXaumc0JBpxFIcoFdC4vBFPCc8s4jOR82YgZmHt8zFnzv/yX4eZqF1Pw5MwXr3tIl+iOdv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-28T15:56:42.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="XGEq2KACX64sZcKUHRp7" version="15.2.9" type="github" pages="2">
+  <diagram id="KOsFHXbVnDmWhLEfPkbn" name="Page-1">
+    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6E6E6" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-1" value="try : used to hold statements==&amp;gt; may get exception" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-2" value="catch : used to handle the exception." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-3" value="finally : is used to execute the code irrespective of exceptional situation.&lt;br&gt;&lt;br&gt;ex: closing the db connection, closing the file / closure work.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="-pQuZumZaUtOP_BRjxFS-4" target="-pQuZumZaUtOP_BRjxFS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-4" value="call from main&amp;nbsp;&lt;br&gt;division(10,5)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="-pQuZumZaUtOP_BRjxFS-5" target="-pQuZumZaUtOP_BRjxFS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-5" value="division(a=10, b =5)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="235" y="990" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-7" value="try{&lt;br&gt;c = a / b ;&lt;br&gt;10/ 5&lt;br&gt;return 2;&lt;br&gt;// before executing the return statement it will go to finally block and execute it and then it will return the value to caller .&lt;br&gt;}" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1140" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-9" value="a method can have multiple return statements but one of them will be executed." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1430" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-10" value="try {&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1610" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-11" value="try {&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;....&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1610" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-12" value="try {&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;finally{&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1610" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-13" value="try {&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;catch(){&lt;br&gt;}&lt;br&gt;....&lt;br&gt;finally {&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1610" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-14" value="try {&lt;br&gt;}&lt;br&gt;finally{&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1612" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-15" value="1. once exception is generated or exception object will be created(for predefined exceptions)&lt;br&gt;when we will come across with userdefined one then we have to use throw keyword and throws.&lt;br&gt;&amp;nbsp;&lt;br&gt;2.&amp;nbsp;// JVM will implicitly create the objects for all pre defined runtime exceptions.&lt;br&gt;&lt;br&gt;3. it will throw all exception objects to catch block&amp;nbsp;&lt;br&gt;&lt;br&gt;4. it will match the raised exception with available catch block (s).&amp;nbsp; &lt;br&gt;if it matching then it will execute that catch block&amp;nbsp;&lt;br&gt;if not then it will throw it to JVM&lt;br&gt;5. if there is a finally block then it will execute it or else it will go to the next statement.&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2041" width="460" height="559" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-16" value="any exception is raised in try block and the work control is moved from try block then it will never come back to try block" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2300" width="690" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-17" value="CheckedException" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2710" width="455" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQuZumZaUtOP_BRjxFS-18" value="CustomException :&amp;nbsp;&lt;br&gt;User defined Exception :&amp;nbsp;&lt;br&gt;&amp;nbsp;name of the exception will be ended with word Exception.&lt;br&gt;&lt;br&gt;It should extends to any one of the exceptions from the hierarchy or any other user defined exception.&lt;br&gt;&lt;br&gt;we should override toString method&lt;br&gt;&lt;br&gt;we should declare PC &amp;amp; give a call to super method.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3230" width="480" height="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ga43FBYxD47Y-ojxkggj" name="String String buffer">
+    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-0" />
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-1" parent="6bLkr666cF2w7Ll-ntS_-0" />
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-14" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="400" y="675" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-2" value="What is String?:&lt;br&gt;its a final class&amp;nbsp;&lt;br&gt;String objects are immutable.&lt;br&gt;internally it will hold the content in terms of a character array.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;The&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;String&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;class represents character strings. All string literals in Java programs, such as&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&quot;abc&quot;&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;, are implemented as instances of this class.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&quot;&quot; in any java program then all those are string objects.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="190" y="130" width="350" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="60" y="570" width="310" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-4" value="Abhinandan" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="120" y="600" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-5" value="cogent" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="120" y="675" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=23;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1" source="6bLkr666cF2w7Ll-ntS_-7" target="6bLkr666cF2w7Ll-ntS_-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="870" />
+              <mxPoint x="600" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-7" value="String s&amp;nbsp;&lt;br&gt;String s2&lt;br&gt;String s3" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="-180" y="630" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-9" value="" style="endArrow=none;html=1;fontFamily=Comic Sans MS;fontSize=23;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="720" as="sourcePoint" />
+            <mxPoint x="-180" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-10" value="" style="endArrow=classic;html=1;fontFamily=Comic Sans MS;fontSize=23;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1" source="6bLkr666cF2w7Ll-ntS_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="670" as="sourcePoint" />
+            <mxPoint x="120" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-11" value="" style="endArrow=classic;html=1;fontFamily=Comic Sans MS;fontSize=23;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1" source="6bLkr666cF2w7Ll-ntS_-7" target="6bLkr666cF2w7Ll-ntS_-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=23;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1" source="6bLkr666cF2w7Ll-ntS_-13" target="6bLkr666cF2w7Ll-ntS_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-13" value="String 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="-180" y="520" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-15" value="&quot;congent university&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="540" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-17" value="heap area" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="690" y="860" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=23;" edge="1" parent="6bLkr666cF2w7Ll-ntS_-1" source="6bLkr666cF2w7Ll-ntS_-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-18" value="String s4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="-180" y="620" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-20" value="String s4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="50" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-25" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="400" y="790" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-26" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="400" y="780" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bLkr666cF2w7Ll-ntS_-28" value="&#xa;&#xa;&lt;table class=&quot;table table-bordered&quot; style=&quot;background-color: transparent; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(221, 221, 221); width: 716.547px; max-width: 100%; margin-bottom: 20px; display: table; margin-left: 0px; color: rgba(0, 0, 0, 0.87); font-family: arial, verdana, tahoma; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;background: rgb(238 , 238 , 238) ; padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;Escape Sequence&lt;/th&gt;&lt;th style=&quot;background: rgb(238 , 238 , 238) ; padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\t&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a tab in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\b&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a backspace in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\n&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a newline in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\r&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a carriage return in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\f&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a form feed in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\&#39;&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a single quote character in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\&quot;&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a double quote character in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top ; text-align: center&quot;&gt;\\&lt;/td&gt;&lt;td style=&quot;padding: 8px ; border: 1px solid rgb(221 , 221 , 221) ; line-height: 1.42857 ; vertical-align: top&quot;&gt;Inserts a backslash character in the text at this point.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Comic Sans MS;fontSize=23;" vertex="1" parent="6bLkr666cF2w7Ll-ntS_-1">
+          <mxGeometry x="-520" y="1020" width="1170" height="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
